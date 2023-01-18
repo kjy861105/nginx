@@ -1,5 +1,5 @@
 # nginx최신 stable 버전 컨테이너를 커스텀
-FROM nginx:latest
+FROM nginx:real
  
 # 기존 설정파일 삭제
 RUN rm /etc/nginx/conf.d/default.conf
